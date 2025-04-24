@@ -7,4 +7,3 @@ INSERT INTO Movie (MovieTitle, MovieGenre, TotalWatchTime, YearOfRelease)
 VALUES 
 ('Bedknobs and Broomsticks', 'Musical', 97, 1971),
 ('The Grand Budapest Hotel', 'Comedy', 99, 2014);
-

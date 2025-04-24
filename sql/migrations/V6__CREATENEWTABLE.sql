@@ -3,4 +3,3 @@ CREATE TABLE Director (
     DirectorName VARCHAR(100) NOT NULL,  
     DateOfBirth VARCHAR(50) NOT NULL ,
 );
-

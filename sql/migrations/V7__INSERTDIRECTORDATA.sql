@@ -1,4 +1,4 @@
-INSERT INTO Director (DirectorName, DateOfBirth)
+INSERT INTO Director (DirectorName , DateOfBirth )
 VALUES 
 ('Robert Zemeckis', '1951-05-14'),  
 ('Peter Jackson', '1961-10-31'),    
@@ -11,4 +11,3 @@ ADD DirectorID INT;
 ALTER TABLE Movie
 ADD CONSTRAINT FK_Director
 FOREIGN KEY (DirectorID) REFERENCES Director(DirectorID);
-
