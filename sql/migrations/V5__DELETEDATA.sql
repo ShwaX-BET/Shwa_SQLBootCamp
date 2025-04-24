@@ -1,2 +1,2 @@
 DELETE FROM Movie
-WHERE MovieTitle = 'The Grand Budapest Hotel';
+WHERE Title = 'The Grand Budapest Hotel';
