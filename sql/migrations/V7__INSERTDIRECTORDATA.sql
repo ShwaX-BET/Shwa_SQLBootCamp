@@ -1,4 +1,3 @@
--- Inserting directors into the Director table
 INSERT INTO Director (DirectorName, DateOfBirth)
 VALUES 
 ('Robert Zemeckis', '1951-05-14'),  
