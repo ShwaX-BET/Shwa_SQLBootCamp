@@ -11,5 +11,5 @@ CREATE TABLE Movie(
     MovieTitle VARCHAR(100) Not Null,
     MovieGenre VARCHAR(50) Not Null,
     TotalWatchTime INT Not Null,
-    YearOfRelease Varchar(100) Not Null
+    YearOfRelease Varchar(100) Not Null,
 );
