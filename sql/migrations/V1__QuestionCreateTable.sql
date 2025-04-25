@@ -4,7 +4,7 @@ CREATE TABLE Book
     Title VARCHAR(100) NOT NULL,
     Genre VARCHAR(50) NOT NULL,
     TotalPageCount INT NOT NULL,
-    Author Varchar(100) NOT NULL
+    Author VARCHAR(100) NOT NULL
 );
 
 CREATE TABLE Movie
