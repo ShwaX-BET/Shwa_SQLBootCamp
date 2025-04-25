@@ -6,6 +6,6 @@ VALUES
 
 INSERT INTO Movie(Title, Genre, TotalWatchTime, YearOfRelease)
 VALUES
-('Back To The Future Part 1' ,'Sci-Fi' ,116 ,'1985' ),
-('The Lord of the Rings: The Two Towers Extended Edition' ,'Fantasy' ,235 ,'2003' ),
-('Final Destination' ,'Horror' ,98 ,'2000' );
+('Back To The Future Part 1' ,'Sci-Fi' ,116 , 1985 ),
+('The Lord of the Rings: The Two Towers Extended Edition' ,'Fantasy' ,235 , 2003),
+('Final Destination' ,'Horror' ,98 , 2000);

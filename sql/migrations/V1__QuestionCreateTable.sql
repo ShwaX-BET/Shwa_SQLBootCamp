@@ -13,5 +13,5 @@ CREATE TABLE Movie
     Title VARCHAR(100) NOT NULL,
     Genre VARCHAR(50) NOT NULL,
     TotalWatchTime INT NOT NULL,
-    YearOfRelease VARCHAR(100) NOT NULL,
+    YearOfRelease INT NOT NULL,
 );
