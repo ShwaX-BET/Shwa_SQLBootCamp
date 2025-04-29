@@ -7,4 +7,3 @@ SELECT TOP 5    Title,
 FROM Movie
 ORDER BY TotalWatchTime ASC;
 GO
-
