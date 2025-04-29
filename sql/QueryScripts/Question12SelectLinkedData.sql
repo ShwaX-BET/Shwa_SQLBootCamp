@@ -3,7 +3,7 @@ FROM Movie
 JOIN Director
 ON Movie.DirectorID = Director.DirectorID;
 
-SELECT Title,Name AS Director_Name
+SELECT Title,Name
 FROM Movie
 JOIN Director
 ON Movie.DirectorID = Director.DirectorID
