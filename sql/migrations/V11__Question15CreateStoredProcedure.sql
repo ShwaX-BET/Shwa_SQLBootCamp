@@ -6,16 +6,18 @@ SELECT TOP 5    Title,
 		YearOfRelease
 FROM Movie
 ORDER BY TotalWatchTime ASC;
+GO
 
 CREATE PROCEDURE GetMovieByGenre
 @Genre NVARCHAR(100)
 AS
 SELECT	Title,
-		Name AS Director_Name
+	Name 
 FROM Movie
 JOIN Director
 ON Movie.DirectorID = Director.DirectorID
 WHERE Genre = @Genre;
+GO
 
 CREATE PROCEDURE AddMovieAndDirector
 @Title NVARCHAR(100),
@@ -31,3 +33,4 @@ VALUES
 INSERT INTO Director(Name, DateOfBirth)
 VALUES
 (@Name, @DateOfBirth);
+GO
