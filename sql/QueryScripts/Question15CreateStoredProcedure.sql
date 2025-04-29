@@ -7,7 +7,7 @@ SELECT TOP 5    Title,
 FROM Movie
 ORDER BY TotalWatchTime ASC;
 
-CREATE PROCEDURE Get_Movie_By_Genre
+CREATE PROCEDURE GetMovieByGenre
 @Genre NVARCHAR(100)
 AS
 SELECT	Title,
@@ -17,7 +17,7 @@ JOIN Director
 ON Movie.DirectorID = Director.DirectorID
 WHERE Genre = @Genre;
 
-CREATE PROCEDURE add_movie_and_director
+CREATE PROCEDURE AddMovieAndDirector
 @Title NVARCHAR(100),
 @Genre NVARCHAR(20),
 @TotalWatchTime INT,
