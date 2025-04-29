@@ -1,0 +1,17 @@
+CREATE TABLE Book
+(
+    BookID INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+    Title VARCHAR(100) NOT NULL,
+    Genre VARCHAR(50) NOT NULL,
+    TotalPageCount INT NOT NULL,
+    Author VARCHAR(100) NOT NULL
+);
+
+CREATE TABLE Movie
+(
+    MovieID INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
+    Title VARCHAR(100) NOT NULL,
+    Genre VARCHAR(50) NOT NULL,
+    TotalWatchTime INT NOT NULL,
+    YearOfRelease INT NOT NULL,
+);
