@@ -3,7 +3,8 @@ RETURNS TABLE
 AS
 RETURN
 (
-SELECT	Title			
+SELECT	
+ Title			
 FROM	Movie
 JOIN	Director
 ON 	Movie.DirectorID = Director.DirectorID

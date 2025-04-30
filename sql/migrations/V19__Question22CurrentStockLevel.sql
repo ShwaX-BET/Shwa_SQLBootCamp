@@ -4,9 +4,9 @@ AS
 BEGIN
 DECLARE @DVDStock INT
 SELECT  @DVDStock = DVD.Stock
-FROM    DVD
-JOIN    Movie
+FROM  DVD
+JOIN  Movie
 ON 	Movie.MovieID = DVD.MovieID
-WHERE   Title = @Title
+WHERE Title = @Title
 RETURN  @DVDStock
 END;
