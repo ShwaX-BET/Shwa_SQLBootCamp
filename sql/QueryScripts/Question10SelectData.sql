@@ -1,3 +1,4 @@
-SELECT  Title, 
-        TotalWatchTime
+SELECT  
+  Title, 
+  TotalWatchTime
 FROM Movie;

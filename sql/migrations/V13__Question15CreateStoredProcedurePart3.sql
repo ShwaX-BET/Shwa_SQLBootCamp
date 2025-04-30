@@ -6,10 +6,11 @@ CREATE PROCEDURE AddMovieAndDirector
 @Name NVARCHAR(100),
 @DateOfBirth DATE
 AS 
+BEGIN
 INSERT INTO Director(Name, DateOfBirth)
 VALUES
 (@Name, @DateOfBirth);
 INSERT INTO Movie(Title, Genre, TotalWatchTime, YearOfRelease)
 VALUES
 (@Title, @Genre, @TotalWatchTime, @YearOfRelease);
-GO
+END;

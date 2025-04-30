@@ -1,6 +1,8 @@
 CREATE PROCEDURE GetMovieGreaterThanAverageRuntime
 AS
-SELECT	Title
-FROM 	Movie
-WHERE 	TotalWatchTime > dbo.GetAverageWatchTime();
-GO
+BEGIN
+SELECT
+ Title
+FROM Movie
+WHERE TotalWatchTime > dbo.GetAverageWatchTime();
+END;
