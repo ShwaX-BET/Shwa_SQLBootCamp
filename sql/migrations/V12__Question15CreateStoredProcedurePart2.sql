@@ -7,6 +7,6 @@ SELECT
   Name 
 FROM Movie
 JOIN Director
-ON Movie.DirectorID = Director.DirectorID
+  ON Movie.DirectorID = Director.DirectorID
 WHERE Genre = @Genre;
 END;

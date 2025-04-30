@@ -5,8 +5,8 @@ RETURN
 (
 SELECT	
  Title			
-FROM	Movie
-JOIN	Director
-ON 	Movie.DirectorID = Director.DirectorID
-WHERE 	DateOfBirth >= @DateOfBirth
+FROM Movie
+JOIN Director
+ ON Movie.DirectorID = Director.DirectorID
+WHERE DateOfBirth >= @DateOfBirth
 );

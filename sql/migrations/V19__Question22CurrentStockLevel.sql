@@ -3,10 +3,11 @@ RETURNS INT
 AS
 BEGIN
 DECLARE @DVDStock INT
-SELECT  @DVDStock = DVD.Stock
-FROM  DVD
-JOIN  Movie
-ON 	Movie.MovieID = DVD.MovieID
+SELECT
+  @DVDStock = DVD.Stock
+FROM DVD
+JOIN Movie
+  ON Movie.MovieID = DVD.MovieID
 WHERE Title = @Title
-RETURN  @DVDStock
+RETURN @DVDStock
 END;
